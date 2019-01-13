@@ -1,0 +1,27 @@
+.bouton_comp
+{
+    font-weight: normal;
+}
+
+.bouton_obs
+{
+    color: gray;
+}
+
+.bouton_comp, .bouton_obs:hover
+{
+    cursor: pointer;
+}
+
+.modif textarea, .send_comp textarea {
+    width: 80%;
+    height: 80px;
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+}
+
+.modif, .add_obs, .add_comp, .send_comp
+{
+    display: none;
+}

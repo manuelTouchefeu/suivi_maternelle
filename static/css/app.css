@@ -1,0 +1,192 @@
+/* Global */
+body {
+	background-color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 100%;
+	min-height: 100%;
+	font-family: arial;
+}
+
+h2, h1, .lien, #navbar a {
+    color: grey;
+}
+
+h1 {
+    font-size: 1,5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    padding-right: 3%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a, .lien {
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#domaines a:hover, .enfant_classe:hover {
+    color: gray;
+}
+
+/* Classes */
+.conteneur {
+    display: flex;
+}
+
+.supp:hover {
+    cursor: pointer;
+}
+.supp {
+    color: red;
+}
+
+.formulaire {
+    margin-right: 20px;
+}
+
+/* Tableaux d'observables */
+table {
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    width: 97%;
+    color: black;
+}
+
+th {
+    background-color: gray;
+    text-align: left;
+    font-size: 1em;
+}
+
+td, th {
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.comp, .competence {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.obs, .bouton, .competence td {
+    font-size: 0.7em;
+}
+
+table p {
+    margin: 0;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.suite:hover, .alerte:hover, .passe:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.suite {
+    background-color: PapayaWhip;
+}
+
+.alerte {
+    background-color: red;
+}
+
+.ok {
+    background-color: #2E8B57;
+}
+
+.petit {
+    background-color: #D3D3D3;
+}
+
+.moyen {
+    background-color: #A9A9A9;
+}
+
+.grand {
+    background-color: #808080;
+}
+
+/* Observables */
+.bouton_comp {
+    font-weight: normal;
+}
+
+.bouton_obs {
+    color: gray;
+}
+
+.bouton_comp, .bouton_obs:hover {
+    cursor: pointer;
+}
+
+.modif textarea, .send_comp textarea {
+    width: 80%;
+    height: 80px;
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+}
+
+.modif, .add_obs, .add_comp, .send_comp {
+    display: none;
+}
+
+/* Commentaires */
+.commentaire {
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.modifier_form {
+    display: none;
+}
+
+.modifier_bouton {
+    cursor: pointer;
+}
+
+
+/* Login */
+#log {
+    position: absolute;
+    z-index: 0;
+}
+
+#canvas {
+    position: relative;
+    z-index: -1;
+}
+

@@ -1,0 +1,22 @@
+#retour, #print, #valider
+{
+    width: 25px;
+    height: 25px;
+    border: none;
+    vertical-align:bottom;
+}
+
+.conteneur
+{
+    width: 20cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.observable
+{
+    width: 40%;
+    margin-bottom: 10px;
+}
+

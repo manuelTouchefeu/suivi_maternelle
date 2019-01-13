@@ -1,0 +1,78 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    width: 97%;
+    color: black;
+}
+
+th
+{
+    background-color: gray;
+    text-align: left;
+    font-size: 1em;
+}
+
+td, th
+{
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.comp, .competence
+{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.obs, .bouton, .competence td
+{
+    font-size: 0.7em;
+}
+
+table p
+{
+    margin: 0;
+}
+
+.valider:hover
+{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.toggle:hover
+{
+    cursor: pointer;
+}
+
+.suite
+{
+    background-color: PapayaWhip;
+}
+
+.attention
+{
+    background-color: red;
+}
+
+.ok
+{
+    background-color: #2E8B57;
+}
+
+.petit
+{
+    background-color: #D3D3D3;
+}
+
+.moyen
+{
+    background-color: #A9A9A9;
+}
+
+.grand
+{
+    background-color: #808080;
+}
+
+

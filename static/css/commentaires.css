@@ -1,0 +1,19 @@
+.commentaire
+{
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.modifier_form
+{
+    display: none;
+}
+
+.modifier_bouton
+{
+    cursor: pointer;
+}
+
+
